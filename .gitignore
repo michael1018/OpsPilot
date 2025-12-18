@@ -1,18 +1,19 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.env
-*.venv
+# Virtual environment
+backend/.venv/
+frontend/node_modules/
 .env/
-.venv/
-*.sqlite3
 
-# IDE
-.vscode/
-.idea/
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+*.zip
+
+# Environment variables
+*.env
