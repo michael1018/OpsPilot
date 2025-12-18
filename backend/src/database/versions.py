@@ -1,0 +1,5 @@
+"""
+1.0.0 init
+"""
+
+OPSPILOT_DATABASE_VERSION = '1.0.0'
