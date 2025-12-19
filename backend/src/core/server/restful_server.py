@@ -7,7 +7,11 @@ import asyncio
 import platform
 import inspect
 
+from sanic_cors import CORS
+
 app = Sanic("OpsPilotAPI")
+# Enable CORS for all routes
+CORS(app, automatic_options=True)
 is_stopped = False
 
 

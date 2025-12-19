@@ -11,8 +11,9 @@ from core.api.api_core import ApiCore
 from core.api.api import Api
 
 # Import API modules so that their decorators register endpoints
-import webapi.hello_api  # Example API
-import webapi.users_api  # Example API
+import webapi.hello_api
+import webapi.users_api
+import webapi.auth_api
 
 def main():
     try:
