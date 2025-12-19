@@ -2,6 +2,9 @@
 backend/.venv/
 frontend/node_modules/
 .env/
+__pycache__/
+*.pyc
+
 
 # OS files
 .DS_Store
